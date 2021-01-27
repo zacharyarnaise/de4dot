@@ -197,8 +197,3 @@ As you can see, it's not just one regex, it's more than one. Each one is separat
 To change the regex(es), you must know the short type name of the obfuscator (see help screen). Eg. it's `sa` if it's SmartAssembly, and `un` if it's an unsupported/unknown obfuscator. The option to use is `--TYPE-name` (eg. `--sa-name` for SmartAssembly and `--un-name` for unknown/unsupported obfuscators):
 
     de4dot --un-name "^[a-zA-Z]\w*$" file1.dll
-
-Other options
--------------
-
-Start `de4dot` without any arguments and it will show all options.
